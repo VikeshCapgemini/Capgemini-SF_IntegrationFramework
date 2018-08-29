@@ -1,0 +1,23 @@
+Hi,
+ 
+Interface Error details :
+ 
+Service Name -> {!WebService_Log__c.Name}
+ 
+Status - {!WebService_Log__c.Status__c}
+
+Error Code -> {!WebService_Log__c.Response_Code__c}
+ 
+Error Desscription -> {!WebService_Log__c.Response_Description__c}
+
+Callout Time -> {!WebService_Log__c.CalloutTime__c}
+
+Error Record Id ->   {!WebService_Log__c.Id}
+
+Org Name ->   {!Organization.Name} - {!$Label.Org_Name}
+
+Navigate to the status log  by clicking below link
+{!WebService_Log__c.Link}
+
+Thanks,
+{!$User.FirstName} {!$User.LastName}
